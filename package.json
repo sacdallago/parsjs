@@ -1,0 +1,43 @@
+{
+    "name": "parsy",
+    "version": "0.1.0",
+    "description": "CSV and TSV to JSON parser",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"No tests at this time\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/sacdallago/parsy.git"
+    },
+    "keywords": [
+        "CSV",
+        "comma separated values",
+        "tab separated values",
+        "python dictionary",
+        "separated",
+        "value",
+        "cli",
+        "comma",
+        "tab",
+        "json",
+        "xml",
+        "parser",
+        "sql",
+        "data",
+        "converter"
+    ],
+    "author": "Christian Dallago",
+    "license": "GPLv3",
+    "bin": {
+        "parsy": "./cli.js"
+    },
+    "bugs": {
+        "url": "https://github.com/sacdallago/parsy/issues"
+    },
+    "dependencies": {
+        "commander": "~2.9.0"
+    },
+    "devDependencies": {
+    }
+}
