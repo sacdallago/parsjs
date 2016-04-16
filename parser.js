@@ -16,10 +16,14 @@ var isDecimal_re     = /^\s*(\+|-)?((\d+([,\.]\d+)?)|([,\.]\d+))\s*$/;
 //---------------------------------------
 
 var isNumber = function(string) {
-    if( (string === null) || isNaN( Number(string) ) ) {
+    /*
+    
+    }if( (string === null) || isNaN( new Number(string) ) ) {
         return false;
     }
     return true;
+    */
+    return false;
 };
 
 //---------------------------------------

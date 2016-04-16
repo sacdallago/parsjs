@@ -289,7 +289,7 @@ module.exports = {
         outputText += 'CREATE TABLE '+tableName+' (' + newLine;
         outputText += indent+"id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,"+newLine;
         for (var j=0; j < numColumns; j++) {
-            var dataType = "VARCHAR(255)";
+            var dataType = "TEXT";
             if ((headerTypes[j] == "int")||(headerTypes[j] == "float")) {
                 dataType = headerTypes[j].toUpperCase();
             }
@@ -314,7 +314,7 @@ module.exports = {
                 if ((headerTypes[j] == "int")||(headerTypes[j] == "float"))  {
                     outputText += dataGrid[i][j] || "null";
                 } else {
-                    outputText += "\""+( dataGrid[i][j] || "" )+"\"";
+                    outputText += "'"+( dataGrid[i][j].replace(/['|`]/g,"\"") || "" )+"'";
                 }
 
                 if (j < numColumns - 1) {
