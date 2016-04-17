@@ -2,7 +2,7 @@
 
 Tab-Separated-Values or Comma-Separated-Values to [ANYTHING] converter.
 
-Thank to [Mr Data Converter](https://github.com/shancarter/mr-data-converter) for the initial input, this npm package contains:
+Thanks to [Mr Data Converter](https://github.com/shancarter/mr-data-converter) for the initial input, this npm package contains:
 
 1. A command line tool to convert files
 2. A package that can be `required` to use the same functionalities as used in the `cli.js` script
