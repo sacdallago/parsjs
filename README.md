@@ -1,6 +1,6 @@
 # parsjs
 
-Tab-Separated-Values or Comma-Separated-Values to [ANYTHING] converter.
+Tab-Separated-Values or Comma-Separated-Values to [EVERYTHING] converter.
 
 Thanks to [Mr Data Converter](https://github.com/shancarter/mr-data-converter) for the initial input, this npm package contains:
 
