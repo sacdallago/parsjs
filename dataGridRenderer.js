@@ -151,7 +151,7 @@ module.exports = {
                     var rowOutput = '"' + ( row[j] || "" ) + '"';
                 };
 
-                outputText += ('"'+headerNames[j] +'"' + ":" + rowOutput );
+                outputText += ('"'+headerNames[j].replace(/\./g,"_") +'"' + ":" + rowOutput );
 
                 if (j < (numColumns-1)) {outputText+=","};
             };
