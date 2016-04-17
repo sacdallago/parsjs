@@ -7,10 +7,15 @@ Thanks to [Mr Data Converter](https://github.com/shancarter/mr-data-converter) f
 1. A command line tool to convert files
 2. A package that can be `required` to use the same functionalities as used in the `cli.js` script
 
+---
+## Premise
+I needed a Command Line Interface (CLI) tool to convert tab-separated `.txt` files to `.sql` (`parsjs -o "mysql"`) and `.json` and that is what I've been putting most effort into creating and correcting.
+
+Other functionalities are buggy and need improvement. Collaborators are welcome.
+
+---
 
 ## CLI
-
-I needed a Command Line Interface (CLI) tool mainly, and that is what I've been putting most effort into creating.
 
 To download the package, make sure you have `npm` and `node`, then execute:
 
